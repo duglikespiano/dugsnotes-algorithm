@@ -1,3 +1,5 @@
+// Reverse string by manipulating string
+
 function reverseString(string) {
 	let reversedString = '';
 	// for (let i = 0; i < string.length; i++) {
@@ -6,7 +8,7 @@ function reverseString(string) {
 	for (let char of string) {
 		reversedString = char + reversedString;
 	}
-	return string === reversedString;
+	return reversedString;
 }
 console.log(reverseString('anna'));
 console.log(reverseString('dug'));
